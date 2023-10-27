@@ -1,0 +1,110 @@
+body img{
+	width: 150%;
+	height: auto;
+}
+.wrapper-header{
+	background: #333300;
+}
+.logo{
+	padding: 10px 0;
+}
+.logo a{
+	display: block;
+	width: 300px;
+}
+.top-menu{ 
+	padding: 10px 0;
+	text-align: right;
+}
+.top-menu ul{
+	float: right;
+}
+.top-menu ul.nav li a.active{
+	color: #a3a4a5;
+}
+.top-menu ul.nav li a.active,
+.top-menu ul.nav li a:hover{
+	color: #a3a4a5;
+}
+.wrapper-section.section-banner{
+	height: 450px;
+	background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0)),url('../Images/stats-bg.jpg')no-repeat;
+	background-size: cover;	
+}
+@font-face{
+	font-family: Poppins;
+	src: url('../Fonts/Poppins/Poppins-Reguler.ttf');
+}
+@font-face{
+	font-family: tropical-sunday;
+	src: url('../Fonts/tropical-sunday/Tropical Sunday TTF Personal.ttf');
+}
+.wrapper-section.section-banner h1{
+	font-family: tropical-sunday;
+	color: #fff;
+	font-size: 50px;
+	padding-top: 150px;
+}
+.wrapper-section.section-banner h4{
+	font-family: Poppins;
+	color: #fff;
+	font-size: 30px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+.center{
+	text-align: center;
+}
+.text{
+	font-family: tropical-sunday;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.btn-green{
+	background-color: #4fcc4f;
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.title{
+	font-family: tropical-sunday;
+	font-size: 30px;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+.title-1{
+	color: black;
+	font-family: tropical-sunday;
+	font-size: 20px;
+}
+.sub-title{
+	font-family: Poppins;
+	font-size: 15px;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+.card1{
+	background: #333300;
+}
+.section-content{
+	background: black;
+	height: 430px;
+	text-align: center;
+}
+.section-recent{
+	background: #21323b;
+	height: 350px;
+}
+.section-recent.section-project h4{
+	font-family: tropical-sunday;
+	color: #000;
+	font-size: 100px;
+	padding-bottom: 10px;
+}
+.hire-title{
+	font-family: tropical-sunday;
+}
+.hire-sub-title{
+	font-family: Poppins;
+}
